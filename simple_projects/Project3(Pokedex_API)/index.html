@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pokedexRight.css" />
+    <title>POKEDEX</title>
+  </head>
+  <body>
+    <div id="pokedex-container">
+      <!-- left side of pokedex  -->
+      <div id="pokedex-left">
+        <div id="top">
+          <div id="circle-container">
+            <div id="blue-circle-container">
+              <div id="bluecircle"></div>
+            </div>
+
+            <div id="three-circle-container">
+              <div class="small-dot-circle sc-red"></div>
+              <div class="small-dot-circle sc-green"></div>
+              <div class="small-dot-circle sc-yellow"></div>
+            </div>
+          </div>
+
+          <div id="box-curve">
+            <div class="box-curve-upper"></div>
+            <div class="box-curve-lower"></div>
+          </div>
+        </div>
+
+        <!-- screen  -->
+        <div id="screen-container">
+          <div id="screen">
+            <img src="" alt="POKE DEX" id="pokemon-img" class="pokemon-img-js"/>
+
+            <div id="design-container">
+              <div id="red-circle-design"></div>
+              <div id="two-dash-container">
+                <div class="dash"></div>
+                <div class="dash"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div id="bottom">
+          <div id="blue-circle2"></div>
+
+          <div id="dpad-container">
+            <div class="dpad dpad-horizontal"></div>
+            <div class="dpad dpad-vertical"></div>
+          </div>
+
+          <div id="light-container">
+            <div id="light-green"></div>
+            <div id="light-orange"></div>
+          </div>
+
+          <div id="yellow-box"></div>
+        </div>
+      </div>
+
+      <!-- hinge -->
+      <div id="hinge"></div>
+
+      <!-- right side of Pokedex -->
+      <div id="pokedex-right">
+        <!-- hiddenSection to for design -->
+        <div id="top-square-right">
+          <div id="red-card-design"></div>
+        </div>
+
+        <div id="pokedex-right-body">
+          <div id="search-bar-container">
+            <input type="text" id="search-input" class="search-input-js" placeholder="ENTER A POKEMON" />
+            <button id="search-btn" class="search-btn-js"><i class="fas fa-search"></i></button>
+          </div>
+
+          <div id="squares-section">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+
+          <div id="design-section-3">
+            <div id="two-square-container">
+              <div class="white-box"></div>
+              <div class="white-box"></div>
+            </div>
+            <div id ="yellow-circle-container">
+<div id="yellow-circle-end"></div>
+            </div>
+            
+          </div>
+
+          <div id="design-section-4">
+            <div class="black-box-end"></div>
+            <div class="black-box-end"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
