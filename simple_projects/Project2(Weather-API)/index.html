@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Enter a city" class="city-input" />
+        <button id="city-search-input"><i class="fas fa-search"></i></button>
+      </div>
+
+      <!-- Date and City -->
+      <div class="info">
+        <p id="date">Date</p>
+        <h3 id="city"></h3>
+      </div>
+
+      <div id="description">
+        <img
+          src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"
+          alt=""
+          id="weather-icon"
+        />
+        <p id="weather-description"></p>
+      </div>
+      <div id="temp"></div>
+      <div id="extra-info">
+        <div class="col">
+          <div class="info">
+            <h5>Highs</h5>
+            <p id="tempmax"></p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="info">
+            <h5>Lows</h5>
+            <p id="templow"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
