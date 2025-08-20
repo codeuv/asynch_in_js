@@ -1,5 +1,5 @@
 let api_key = 'd998cd43af73fd48f29dc2803d534419'
-//this is a wrong api change it to your api by vistin the website
+//this is a wrong api change it to your api by vis in the website
 const date = document.querySelector('#date');
 const city = document.querySelector('#city');
 const description = document.querySelector('#description');
